@@ -10,10 +10,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 candle_url = "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=5m&limit=500"
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN ="7246088390:AAHBusrLLwBK3lzEbb8gRd_v0NbUpjKQiE0"
 print(BOT_TOKEN)
 
-CHAT_ID = os.getenv("CHAT_ID")
+CHAT_ID = "6381477177"
 TELEGRAM_URL = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
 last_crossover_time = None
