@@ -76,7 +76,7 @@ def check_rsi_crossover(data):
 
     for crossover in crossovers:
         time_stamp, price, price_diff, direction = crossover
-        # print(f"🕒 {time_stamp} | 💰 {price:.2f} | 🔄 {direction} | 🔀 Price Diff: {price_diff:.2f}")
+        print(f"🕒 {time_stamp} | 💰 {price:.2f} | 🔄 {direction} | 🔀 Price Diff: {price_diff:.2f}")
 
     latest_time, latest_price, latest_price_diff, latest_direction = crossovers[-1]
     current_time = get_current_time_ist()
